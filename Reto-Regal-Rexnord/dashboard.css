@@ -1,0 +1,50 @@
+body {
+    background-color: #f5f5f5;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #007bff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .navbar-brand,
+.navbar .nav-link {
+    color: #007bff;
+}
+
+.navbar-brand {
+    width: 100px;
+}
+
+.navbar .nav-link:hover {
+    color: #56595c;
+}
+
+.container {
+    max-width: 1200px;
+}
+
+h1 {
+    font-weight: bold;
+    color: #007bff;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+}
+
+.row {
+    margin-bottom: 30px;
+}
+
+.card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+canvas {
+    width: 100%;
+    height: 400px;
+}
